@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GSI Test Page</title>
+	<script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+	<link rel="import" href="bower_components/polymer/polymer.html">
+	<link rel="import" href="bower_components/google-signin/google-signin.html">
+	<style>
+		body {
+			padding: 20px 50px;
+		}
+		h1 {
+			font-family: 'Roboto',sans-serif;
+		}
+		google-signin {
+			text-transform: uppercase;
+		}
+	</style>
+</head>
+<body>
+	<h1>Google-Signin Test</h1>
+	<google-signin class="signin-btn" client-id="844275130627-7o60j8u9qoe3rj50m5sib5m7ik8rig9q.apps.googleusercontent.com" label-signin="Sign In" scopes="https://www.googleapis.com/auth/plus.me" hasPlusScopes="false" google-signin-success="success()" brand="google" theme="light"></google-signin>
+</body>
+</html>
